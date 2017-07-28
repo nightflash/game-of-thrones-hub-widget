@@ -1,0 +1,10 @@
+{
+  "key": "game-of-thrones-widget",
+  "name": "Game of Thrones Widget",
+  "version": "1.0.0",
+  "description": "This widget shows the time till next episode",
+  "author": "Maxim Erekhinskiy <maxim.erehinskiy@jetbrains.com>",
+  "view": {
+    "fadeOut": false
+  }
+}

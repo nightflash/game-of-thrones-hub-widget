@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Default styles of dashboard widgets -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/hub-dashboard-addons@latest/dashboard.css">
+    <!-- Include dashboard connector from CDN -->
+    <script src="https://unpkg.com/hub-dashboard-addons@latest"></script>
+
+    <!-- Widget logic -->
+    <script src="main.js"></script>
+    <!-- Widget styles -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="container">
+    <div id="content">
+        <div class="counter">
+            <div class="day"></div>
+            <div class="hour"></div>
+            <div class="minute"></div>
+            <div class="second"></div>
+        </div>
+    </div>
+    <div id="configuration">
+        <div class="config">
+            <select class="house-picker"></select>
+
+            <button class="save-button">Save</button>
+        </div>
+    </div>
+</body>
+
+</html>
